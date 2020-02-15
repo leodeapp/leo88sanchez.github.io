@@ -1,0 +1,76 @@
+
+  where to run java online free
+https://www.codechef.com/ide
+
+
+  run java code too; goto the bottom part
+https://www.w3resource.com/java-exercises/method/java-method-exercise-1.php
+
+
+  run java code here, too!
+https://www.jdoodle.com/online-java-compiler
+
+
+  run java code
+https://repl.it/languages/java
+
+
+
+
+
+---- tested codes that worked -------------
+
+
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+  }
+}
+
+
+---- sample 2----
+
+import java.util.Scanner;   // import the Scanner class 
+
+public class MyClass {      // this should be public class Main {  Error **
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+                            // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
+}
+
+
+--correct
+import java.util.Scanner;   // import the Scanner class 
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+                            // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+** end ** ---------------------------
